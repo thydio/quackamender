@@ -1,7 +1,8 @@
 # quackamender
 
 
-a movie recommended website 
+a movie recommender 
+website 
 
 class 12 cbse computer science project 
 
