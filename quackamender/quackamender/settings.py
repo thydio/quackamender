@@ -54,7 +54,7 @@ ROOT_URLCONF = "quackamender.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "login/templates", BASE_DIR / "index/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
