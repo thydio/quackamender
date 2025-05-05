@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Details</h1>
+    </header>
+    <main>
+        <section>
+            <h2>{{ movie.title }}</h2>
+            <p><strong>Release Date:</strong> {{ movie.release_date }}</p>
+            <p><strong>Genre:</strong> {{ movie.genre }}</p>
+            <p><strong>Director:</strong> {{ movie.director }}</p>
+            <p><strong>Cast:</strong> {{ movie.cast }}</p>
+            <p><strong>Description:</strong> {{ movie.description }}</p>
+        </section>
+        <a href="/index.html">Back to Movies List</a>
+    </main>
+</body>
+</html>
